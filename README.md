@@ -13,4 +13,14 @@ The course overview, playlist and course website can be, respectively, found her
 * [Playlist](https://www.youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA)
 * [Course Website](http://faculty.washington.edu/sbrunton/me564/)
 
+### Prerequisite  ###
+In order to use and run the exercises, the following modules
+are required.
+
+    jupyter
+    numpy
+    matplotlib
+
+
 ### Lectures ###
+* 01 A gentle Introduction to Modeling with Matrices and Vectors: A Probabilistic Weather Model
