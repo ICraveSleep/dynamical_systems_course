@@ -24,3 +24,6 @@ are required.
 
 ### Lectures ###
 * 01 A gentle Introduction to Modeling with Matrices and Vectors: A Probabilistic Weather Model
+
+### Misc ###
+* 01 Numerical Methods
