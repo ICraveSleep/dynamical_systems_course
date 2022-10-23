@@ -23,7 +23,13 @@ are required.
 
 
 ### Lectures ###
-* 01 A gentle Introduction to Modeling with Matrices and Vectors: A Probabilistic Weather Model
+* 01 - A gentle Introduction to Modeling with Matrices and Vectors: A Probabilistic Weather Model
 
-### Misc ###
-* 01 Numerical Methods
+### Numerical Methods ###
+* Newton Raphson Method for root solving 
+* Secant Method for root solving
+* Backwards Euler numerical integration method
+* Forward Euler numerical integration method
+
+### Physics ###
+* Ball bouncing
