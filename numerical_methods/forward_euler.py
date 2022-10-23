@@ -1,26 +1,10 @@
 from math import pi
 import matplotlib.pyplot as plt
 
-
-def create_time_span(t_start, t_end, step_size):
-    """
-    Create a timespan from t_start to t_end with step_size increments.
-    :param t_start: start time
-    :param t_end: end time
-    :param step_size: step size (delta time)
-    :return: A list of the timespan
-    """
-    time_span = []
-    time_c = t_start
-    while time_c <= t_end:
-        time_span.append(time_c)
-        time_c += step_size
-    time_span.append(time_c)
-    return time_span
+from assist_functions.assist_functions import create_time_span
 
 # x_ddot + 2bw_0x_dot + w_0^2x = 0
 # x_ddot = - 2bw_0x_dot - w_0^2x
-
 
 w_0 = 2*pi
 b = 0.5
