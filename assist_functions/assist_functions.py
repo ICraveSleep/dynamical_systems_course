@@ -14,3 +14,15 @@ def create_time_span(t_start, t_end, step_size):
         time_c += step_size
     time_span.append(time_c)
     return time_span
+
+
+def compress(fps, x, time):
+    x_new = [x[0]]
+    time_new = [time[0]]
+    compress_value = 1 / fps
+    for i, t in enumerate(time):
+        if t >= compress_value:
+            x_new.append(x[i])
+            time_new.append(time[i])
+            compress_value += 1 / fps
+    return x_new, time_new
