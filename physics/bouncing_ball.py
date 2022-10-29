@@ -6,7 +6,7 @@ import time as real_time
 
 # Simulation #
 dt = 0.01
-time = create_time_span(0, 30, dt)
+time = create_time_span(0, 5, dt)
 
 # F = m * x_ddot
 # F = -m*g
@@ -28,7 +28,7 @@ x_0 = 10
 x_ddot = -g
 x_dot = x_dot_0
 x = x_0
-e = 0.9  # e E[0,1]
+e = 0.55  # e E[0,1]
 for t in time:
     if t == 0:
         x_ddot = -g
@@ -99,6 +99,6 @@ def update(frame):
 # blit=True ensures that only the portions of the image which have changed are updated.
 ani = FuncAnimation(fig, update, frames=len(time), interval=1/fps*700, init_func=init, blit=True)
 
-# ani.save('../gifs/ball_bouncing.gif', writer='imagemagick', fps=15)  # Uncomment to update gif
+#ani.save('../gifs/ball_bouncing.gif', writer='imagemagick', fps=15)  # Uncomment to update gif
 
 plt.show()
