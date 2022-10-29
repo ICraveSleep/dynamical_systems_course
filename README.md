@@ -24,6 +24,9 @@ are required.
 
 ### Lectures ###
 * 01 - A gentle Introduction to Modeling with Matrices and Vectors: A Probabilistic Weather Model
+* 02 - The Simplest Ordinary Differential Equation (ODE) and Its Exponential Solution
+* 03 - Solving Differential Equations with Power Series: A Simple Example
+* 04 - Taylor Series and Power Series Made Easy
 
 ### Numerical Methods ###
 * Newton Raphson Method for root solving 
