@@ -97,7 +97,7 @@ def update(frame):
 
 
 # blit=True ensures that only the portions of the image which have changed are updated.
-ani = FuncAnimation(fig, update, frames=len(time), interval=1/fps*800, init_func=init, blit=True)
+ani = FuncAnimation(fig, update, frames=len(time), interval=1/fps*700, init_func=init, blit=True)
 
 # ani.save('../gifs/ball_bouncing.gif', writer='imagemagick', fps=15)  # Uncomment to update gif
 
